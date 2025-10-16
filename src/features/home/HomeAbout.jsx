@@ -20,4 +20,4 @@ function HomeAbout() {
   );
 }
 
-export default HomeAbout
+export default HomeAbout;

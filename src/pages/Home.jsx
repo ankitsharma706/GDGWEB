@@ -1,6 +1,6 @@
-import HomeAbout from "../features/home/homeAbout";
 import HomeFirstPage from "../features/home/HomeFirstPage";
 import HomeInfoPage from "../features/home/HomeInfoPage";
+import HomeAbout from "../features/home/HomeAbout";
 import HomeLbc from "../features/home/HomeLbc";
 import HomeOurWork from "../features/home/HomeOurWork";
 import HomeSessions from "../features/home/HomeSessions";
