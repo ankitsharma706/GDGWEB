@@ -1,9 +1,10 @@
 import { BrowserRouter as Router } from "react-router-dom";
+import AppLayout from "./routes/AppLayout";
 
 function App() {
   return (
     <Router>
-      <AppContent />
+      <AppLayout />
     </Router>
   );
 }
