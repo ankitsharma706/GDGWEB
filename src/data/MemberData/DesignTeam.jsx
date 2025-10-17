@@ -1,14 +1,20 @@
 const DesignTeam = [
   {
     id: 1,
-    name: "Bhabesh Behera",
-    image: "image_001.jpeg",
+    name: "Pavan Kumar",
+    team: "Design",
+    linkedin: "https://www.linkedin.com/in/pavan-kumar-432248298",
+    role: "Design Lead",
+    image: "/DesignTeam/pavan.jpg",
   },
-  { id: 2, name: "Ankit sharma", image: "image_001.jpeg" },
-  { id: 3, name: "Chinmay Nayak", image: "image_001.jpeg" },
-  { id: 4, name: "Mrinall Samal", image: "image_001.jpeg" },
-  { id: 5, name: "Srideep Kundu", image: "image_001.jpeg" },
-  { id: 6, name: "Omm Prakash Rout", image: "image_001.jpeg" },
+  {
+    id: 2,
+    name: "Shradha Shrivastava",
+    team: "Design",
+    linkedin: "https://www.linkedin.com/in/shradha-shrivastava-6a9486330",
+    role: "I design posters, logos and visuals for GDG events.",
+    image: "/DesignTeam/shradha.jpg",
+  },
 ];
 
 export default DesignTeam;

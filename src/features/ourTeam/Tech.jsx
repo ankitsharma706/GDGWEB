@@ -19,11 +19,14 @@ function Lead() {
             key={member.id}
             className="home-sessions home-margin rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300"
           >
-            <img
-              src={member.image}
-              alt={member.name}
-              className="rounded-full w-28 h-28 mb-6 object-cover shadow-lg"
-            />
+            <div className="relative w-[220px] h-[250px] flex items-center justify-center bg-transparent">
+              {/* Image inside the frame */}
+              <img
+                src={member.image}
+                alt="Member"
+                className="w-[220px] h-[250px] object-cover"
+              />
+            </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
               {member.name}
             </h3>
