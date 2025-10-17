@@ -3,7 +3,7 @@ import Logo from './../../assets/logo.png'
 function Lead() {
   return (
     <>
-      <div className="text-center mb-16">
+      <div className="text-center mt-16 mb-16">
         <h2 className="text-4xl sm:text-5xl font-bold text-black mb-4">
           Our Leading Team
         </h2>
@@ -26,9 +26,6 @@ function Lead() {
                 alt="Member"
                 className="w-[220px] h-[250px] object-cover"
               />
-
-              
-             
             </div>
 
             <h3 className="text-xl font-bold text-gray-900 mb-2">

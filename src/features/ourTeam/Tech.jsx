@@ -3,7 +3,7 @@ import TechTeam from "./../../data/MemberData/TechTeam";
 function Lead() {
   return (
     <>
-      <div className="text-center mb-16">
+      <div className="text-center mt-16 mb-16">
         <h2 className="text-4xl sm:text-5xl font-bold  mb-4">
           Our Technical Team
         </h2>
@@ -13,7 +13,7 @@ function Lead() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-10">
+      <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-10">
         {TechTeam.map((member) => (
           <div
             key={member.id}

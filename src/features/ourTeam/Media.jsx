@@ -3,7 +3,7 @@ import LeadTeam from "./../../data/MemberData/MediaTeam";
 function Media() {
   return (
     <>
-      <div className="text-center mb-16">
+      <div className="text-center mt-16 mb-16">
         <h2 className="text-4xl sm:text-5xl font-bold  mb-4">Our Media Team</h2>
         <p className="text-lg sm:text-xl  max-w-3xl mx-auto">
           The dedicated individuals leading GDG ITER and driving our mission

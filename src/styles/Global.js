@@ -60,7 +60,14 @@ const GlobalStyles = createGlobalStyle`
 /* ---------- Home Sessions Section ---------- */
 .home-sessions {
   background: linear-gradient(to right, var(--color-brand-50), var(--color-brand-100), var(--color-brand-50));
-  padding: 3rem 0;
+  padding: 8rem 0;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.nav-color {
+  background: linear-gradient(to right, var(--color-brand-50), var(--color-brand-100), var(--color-brand-50));
+ 
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   

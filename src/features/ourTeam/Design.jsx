@@ -1,9 +1,9 @@
-import LeadTeam from "./../../data/MemberData/DesignTeam";
+import DesignTeam from "./../../data/MemberData/DesignTeam";
 
 function Lead() {
   return (
     <>
-      <div className="text-center mb-16">
+      <div className="text-center mt-16 mb-16">
         <h2 className="text-4xl sm:text-5xl font-bold  mb-4">
           Our Design Team
         </h2>
@@ -14,10 +14,10 @@ function Lead() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-10">
-        {LeadTeam.map((member) => (
+        {DesignTeam.map((member) => (
           <div
             key={member.id}
-            className="home-sessions rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300"
+            className=" rounded-2xlshadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300"
           >
             <div className="relative w-[220px] h-[250px] flex items-center justify-center bg-transparent">
               {/* Image inside the frame */}

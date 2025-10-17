@@ -28,7 +28,7 @@ const sections = [
   {
     id: "about-us",
     name: "About us",
-    path: "/Aboutus",
+    path: "/About",
   },
 ];
 
