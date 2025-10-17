@@ -17,13 +17,18 @@ const sections = [
   },
   {
     id: "contact",
-    name: "contact",
+    name: "Contact",
     path: "/contact",
   },
   {
     id: "community-impact",
     name: "Community & Impact",
     path: "/community-impact",
+  },
+  {
+    id: "about-us",
+    name: "About us",
+    path: "/Aboutus",
   },
 ];
 

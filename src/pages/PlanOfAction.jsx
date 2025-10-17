@@ -1,9 +1,6 @@
 const PlanOfActionSection = () => {
   return (
-    <section
-      id="plan-of-action"
-      className="py-20 bg-gradient-to-br from-indigo-300 to-purple-700 via-indigo-500 text-white"
-    >
+    <section id="plan-of-action" className="py-20 home-sessions">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
@@ -18,8 +15,8 @@ const PlanOfActionSection = () => {
             </p>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 sm:p-10 mb-10 border border-gray-200 bg-gradient-to-br from-indigo-300 to-purple-700">
-            <div className="text-center mb-8 ">
+          <div className="home-sessions rounded-2xl shadow-lg p-8 sm:p-10 mb-10 border border-gray-200 home-sessions">
+            <div className="home-margin text-center mb-8 ">
               <h3 className="text-2xl sm:text-3xl font-bold mb-4 flex items-center justify-center">
                 <span className="text-blue-500 mr-3">📅</span> Academic Year
                 Engagement Timeline
@@ -34,7 +31,7 @@ const PlanOfActionSection = () => {
             </div>
 
             {/* Timeline Legend */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div className="home-margin grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               <div className="flex items-center justify-center p-3 bg-blue-100 rounded-lg border border-blue-200">
                 <div className="w-4 h-4 bg-blue-500 rounded mr-2"></div>
                 <span className="text-sm text-gray-700">Study Jams</span>
@@ -54,9 +51,9 @@ const PlanOfActionSection = () => {
             </div>
 
             {/* Timeline Details */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-xl p-6">
-                <h4 className="text-lg font-bold text-blue-100 mb-3 flex items-center">
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="home-margin rounded-xl p-6">
+                <h4 className="text-lg font-bold  mb-3 flex items-center">
                   <span className="mr-2">🎯</span> Key Milestones
                 </h4>
                 <ul className="space-y-2 ">
@@ -78,8 +75,8 @@ const PlanOfActionSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-xl p-6">
-                <h4 className="text-lg font-bold text-green-50 mb-3 flex items-center">
+              <div className="home-margin rounded-xl p-6">
+                <h4 className="text-lg font-bold  mb-3 flex items-center">
                   <span className="mr-2">📊</span> Expected Impact
                 </h4>
                 <ul className="space-y-2">
@@ -116,7 +113,7 @@ const PlanOfActionSection = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300">
+            <div className="home-sessions home-margin rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300">
               <div className="text-5xl mb-4">📈</div>
               <h4 className="font-bold text-xl  mb-3">Tech Adoption</h4>
               <p className=" leading-relaxed">
@@ -124,7 +121,7 @@ const PlanOfActionSection = () => {
                 students.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-green-300">
+            <div className="home-sessions home-margin rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-green-300">
               <div className="text-5xl mb-4">💡</div>
               <h4 className="font-bold text-xl  mb-3">Skill Building</h4>
               <p className=" leading-relaxed">
@@ -132,14 +129,14 @@ const PlanOfActionSection = () => {
                 hackathons.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-yellow-300">
+            <div className="home-sessions home-margin rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-yellow-300">
               <div className="text-5xl mb-4">🌐</div>
               <h4 className="font-bold text-xl  mb-3">Strong Network</h4>
               <p className=" leading-relaxed">
                 A robust alumni-industry-student network at ITER.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-red-300">
+            <div className="home-sessions home-margin rounded-2xl shadow-lg p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-red-300">
               <div className="text-5xl mb-4">🏅</div>
               <h4 className="font-bold text-xl  mb-3">Official Recognition</h4>
               <p className=" leading-relaxed">

@@ -14,8 +14,8 @@ const Instagram = () => {
           </div>
         </div>
         <div className="flex-grow text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-4 text-white">Instagram</h3>
-          <p className="text-blue-100 text-lg mb-4">
+          <h3 className="text-3xl font-bold mb-4 ">Instagram</h3>
+          <p className=" text-lg mb-4">
             Follow us for event updates, behind-the-scenes content, developer
             tips, and community highlights.
           </p>
@@ -23,7 +23,7 @@ const Instagram = () => {
             <button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105">
               Follow @GDGCommunity
             </button>
-            <span className="text-yellow-300 font-bold text-lg">
+            <span className="text-yellow-600 font-bold text-lg">
               5.2K Followers
             </span>
           </div>

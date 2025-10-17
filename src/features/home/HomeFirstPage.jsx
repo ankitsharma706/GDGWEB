@@ -11,13 +11,13 @@ function HomeFirstPage() {
       <div className="absolute inset-0 bg-black bg-opacity-30"></div>
 
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 left-10 w-32 h-32 border-2 border-white rounded-full"></div>
-        <div className="absolute top-20 right-20 w-24 h-24 border-2 border-white rounded-full"></div>
-        <div className="absolute bottom-20 left-1/4 w-16 h-16 border-2 border-white rounded-full"></div>
-        <div className="absolute bottom-10 right-1/3 w-20 h-20 border-2 border-white rounded-full"></div>
+        <div className="absolute top-10 left-10 w-32 h-32 border-2 border-black rounded-full"></div>
+        <div className="absolute top-20 right-20 w-24 h-24 border-2 border-black rounded-full"></div>
+        <div className="absolute bottom-20 left-1/4 w-16 h-16 border-2 border-black rounded-full"></div>
+        <div className="absolute bottom-10 right-1/3 w-20 h-20 border-2 border-black rounded-full"></div>
       </div>
 
-      <div className="relative z-10 h-full flex items-center">
+      <div className="home-sessions relative z-10 h-full flex items-center">
         <div className="container mx-auto px-12 md:px-20 lg:px-32 xl:px-40">
           <div className="max-w-5xl">
             <div className="mb-8">
@@ -29,19 +29,19 @@ function HomeFirstPage() {
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <span className="text-white text-xl md:text-2xl lg:text-3xl font-medium tracking-wider uppercase">
+                <span className=" text-xl md:text-2xl lg:text-3xl font-medium tracking-wider uppercase">
                   Google Developers Group
                 </span>
               </div>
 
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-6 text-white leading-tight">
-                GDG <span className="font-bold text-yellow-300">ITER</span>
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-6  leading-tight">
+                GDG <span className="font-bold text-yellow-500">ITER</span>
               </h1>
 
-              <p className="text-xl md:text-2xl text-blue-100 mb-3 font-light">
+              <p className="text-xl md:text-2xl  mb-3 font-light">
                 Institute of Technical Education and Research
               </p>
-              <div className="flex items-center gap-2 text-lg text-blue-200">
+              <div className="flex items-center gap-2 text-lg text-gray-900">
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"

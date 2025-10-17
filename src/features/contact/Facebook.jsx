@@ -14,8 +14,8 @@ const Facebook = () => {
           </div>
         </div>
         <div className="flex-grow text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-4 text-white">Facebook</h3>
-          <p className="text-blue-100 text-lg mb-4">
+          <h3 className="text-3xl font-bold mb-4 ">Facebook</h3>
+          <p className=" text-lg mb-4">
             Like our Facebook page for event photos, community stories, and
             broader outreach to the developer ecosystem.
           </p>
@@ -23,7 +23,7 @@ const Facebook = () => {
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105">
               Visit Facebook Page
             </button>
-            <span className="text-blue-200 font-bold text-lg">3.8K Likes</span>
+            <span className="text-blue-700 font-bold text-lg">3.8K Likes</span>
           </div>
         </div>
       </div>

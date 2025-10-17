@@ -14,10 +14,10 @@ const Email = () => {
           </div>
         </div>
         <div className="flex-grow text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-4 text-white">
+          <h3 className="text-3xl font-bold mb-4 ">
             Email Newsletter
           </h3>
-          <p className="text-blue-100 text-lg mb-6">
+          <p className=" text-lg mb-6">
             Subscribe to our newsletter for monthly updates, upcoming event
             announcements, and exclusive content.
           </p>
@@ -25,13 +25,13 @@ const Email = () => {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="flex-grow px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white/50"
+              className="flex-grow px-4 py-3 rounded-xl bg-white/20 border border-white/30  placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white/50"
             />
             <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 whitespace-nowrap">
               Subscribe
             </button>
           </div>
-          <p className="text-blue-200 text-sm mt-3">
+          <p className=" text-sm mt-3">
             We respect your privacy. Unsubscribe at any time.
           </p>
         </div>

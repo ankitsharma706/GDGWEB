@@ -42,7 +42,7 @@ const Navigation = ({ sections, currentPage }) => {
       <nav className="fixed top-0 right-0 z-50 p-6 navigation-container">
         <button
           onClick={toggleMenu}
-          className="group w-12 h-12 bg-white hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200"
+          className="group w-12 h-12  hover:bg-gray-50 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200"
         >
           <div className="relative w-6 h-6">
             {/* Hamburger lines */}
@@ -69,7 +69,7 @@ const Navigation = ({ sections, currentPage }) => {
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="flex items-center justify-between p-6 border-b border-gray-200">
+          <div className="flex items-center justify-between p-6 border-b home-sessions home-margin border-gray-200">
             <h2 className="text-xl font-semibold text-gray-800">Navigation</h2>
             <button
               onClick={() => setIsMenuOpen(false)}
@@ -91,7 +91,7 @@ const Navigation = ({ sections, currentPage }) => {
             </button>
           </div>
 
-          <div className="py-4">
+          <div className="py-4 home-sessions">
             {sections.map((section, index) => (
               <Link
                 key={section.id}

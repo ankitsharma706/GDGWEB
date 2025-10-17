@@ -14,10 +14,10 @@ const Discord = () => {
           </div>
         </div>
         <div className="flex-grow text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-4 text-white">
+          <h3 className="text-3xl font-bold mb-4 ">
             Discord Community
           </h3>
-          <p className="text-blue-100 text-lg mb-4">
+          <p className=" text-lg mb-4">
             Join our active Discord server for real-time discussions, Q&A
             sessions, and instant support from fellow developers.
           </p>
@@ -25,7 +25,7 @@ const Discord = () => {
             <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105">
               Join Server
             </button>
-            <button className="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105">
+            <button className="bg-white/20 hover:bg-white/30  px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105">
               View Channels
             </button>
           </div>

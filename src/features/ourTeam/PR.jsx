@@ -4,10 +4,8 @@ function Lead() {
   return (
     <>
       <div className="text-center mb-16">
-        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-          Our PR Team
-        </h2>
-        <p className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl font-bold  mb-4">Our PR Team</h2>
+        <p className="text-lg sm:text-xl  max-w-3xl mx-auto">
           The dedicated individuals leading GDG ITER and driving our mission
           forward for 2025.
         </p>
@@ -17,7 +15,7 @@ function Lead() {
         {LeadTeam.map((member) => (
           <div
             key={member.id}
-            className="bg-indigo-200 rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300"
+            className="home-sessions home-margin rounded-2xl shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2 border border-gray-200 hover:border-blue-300"
           >
             <img
               src={member.image}

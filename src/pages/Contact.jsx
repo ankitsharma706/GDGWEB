@@ -6,18 +6,15 @@ import WhatsApp from "../features/contact/WhatsApp";
 
 const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="py-24 bg-gradient-to-br from-indigo-400 to-blue-600 via-teal-500 text-white"
-    >
+    <section id="contact" className="py-24 home-sessions">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-green-300 to-blue-300 bg-clip-text text-transparent">
+            <h2 className="text-5xl font-bold mb-6 bg-gray-900 backdrop-blur-2xl bg-clip-text text-transparent">
               Get In Touch
             </h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl  max-w-3xl mx-auto">
               Connect with our community across different platforms. We're
               always here to help, collaborate, and grow together!
             </p>
@@ -34,7 +31,7 @@ const Contact = () => {
 
           {/* Quick Contact CTA */}
           <div className="text-center mt-20">
-            <div className="bg-teal-200 rounded-3xl p-10 shadow-2xl border border-white/20 max-w-4xl mx-auto">
+            <div className="home-sessions rounded-3xl p-10 shadow-2xl border border-white/20 max-w-4xl mx-auto">
               <h3 className="text-4xl font-bold mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
                 Need Immediate Help?
               </h3>

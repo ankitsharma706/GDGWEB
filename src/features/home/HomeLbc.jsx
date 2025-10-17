@@ -2,7 +2,7 @@ function HomeLbc() {
   return (
     <div className=" container mx-auto px-8 md:px-12 lg:px-16 -mt-16 relative z-20">
       <div className="grid md:grid-cols-3 gap-8">
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div className="home-sessions home-margin rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
           <div className="flex items-center gap-4 mb-4">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
               <svg
@@ -19,15 +19,15 @@ function HomeLbc() {
                 />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold text-gray-50">Learn</h3>
+            <h3 className="text-xl font-semibold ">Learn</h3>
           </div>
-          <p className="text-gray-100 leading-relaxed">
+          <p className=" leading-relaxed">
             Master cutting-edge technologies through hands-on workshops, expert
             sessions, and collaborative learning experiences.
           </p>
         </div>
 
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div className="home-sessions home-margin rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
           <div className="flex items-center gap-4 mb-4">
             <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
               <svg
@@ -44,17 +44,17 @@ function HomeLbc() {
                 />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold text-gray-50">Build</h3>
+            <h3 className="text-xl font-semibold ">Build</h3>
           </div>
-          <p className="text-gray-100 leading-relaxed">
+          <p className=" leading-relaxed">
             Create innovative projects and solutions using Google's latest tools
             and technologies in a supportive environment.
           </p>
         </div>
 
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-300 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+        <div className="home-sessions home-margin rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
           <div className="flex items-center gap-4 mb-4">
-            <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-indigo-100 to-purple-100 via-indigo-100 rounded-xl flex items-center justify-center">
               <svg
                 className="w-6 h-6 text-white"
                 fill="none"
@@ -69,9 +69,9 @@ function HomeLbc() {
                 />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold text-gray-50">Connect</h3>
+            <h3 className="text-xl font-semibold ">Connect</h3>
           </div>
-          <p className="text-gray-100 leading-relaxed">
+          <p className=" leading-relaxed">
             Network with passionate developers, industry professionals, and
             build lasting relationships in the tech community.
           </p>

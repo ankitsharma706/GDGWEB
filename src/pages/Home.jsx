@@ -1,20 +1,20 @@
+import HomeAbout from "../features/home/HomeAbout";
 import HomeFirstPage from "../features/home/HomeFirstPage";
 import HomeInfoPage from "../features/home/HomeInfoPage";
-import HomeAbout from "../features/home/HomeAbout";
 import HomeLbc from "../features/home/HomeLbc";
 import HomeOurWork from "../features/home/HomeOurWork";
 import HomeSessions from "../features/home/HomeSessions";
 
 const HomeSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-indigo-400 to-indigo-200  via-indigo-600 text-white">
+    <section className="home-sessions">
       <div className="relative">
         <HomeFirstPage />
         <HomeLbc />
       </div>
       <HomeInfoPage />
       {/* About Us Section */}
-      <div className="py-16 container mx-auto px-12 md:px-20 lg:px-32 xl:px-40 ">
+      <div className="py-16  container mx-auto px-12 md:px-20 lg:px-32 xl:px-40 ">
         <div>
           <HomeAbout />
           <HomeOurWork />

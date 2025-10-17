@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 function HomeInfoPage() {
   return (
-    <div className="py-24 md:py-32 bg-gradient-to-br from-indigo-500 to-purple-300">
+    <div className="py-24 md:py-32 home-sessions">
       <div className="container mx-auto px-12 md:px-20 lg:px-32 xl:px-40">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-light mb-8 text-gray-100">
+          <h2 className="text-4xl md:text-5xl font-light mb-8 ">
             Welcome to{" "}
             <span className="font-semibold text-blue-800">GDG ITER</span>
           </h2>
-          <p className="text-xl leading-relaxed text-gray-100 max-w-4xl mx-auto mb-16">
+          <p className="text-xl leading-relaxed  max-w-4xl mx-auto mb-16">
             Empowering Developers, Building a Vibrant Community
           </p>
           <div className="flex flex-wrap justify-center gap-6">

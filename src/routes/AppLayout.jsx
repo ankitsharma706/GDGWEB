@@ -1,5 +1,8 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 
+import AboutUs from "../pages/AboutUs";
+import Contact from "../pages/Contact";
+import Header from "../ui/Header";
 import CommunityImpactSection from "./../pages/CommunityEvents";
 import FlagshipProgramsSection from "./../pages/FlagShipProg";
 import HomeSection from "./../pages/Home";
@@ -12,9 +15,6 @@ import WorkshopsSection from "./../pages/WorkShop";
 import Footer from "./../ui/Footer";
 import Navigation from "./../ui/Navigation";
 import sections from "./RouteLinkSession";
-import Contact from "../pages/Contact";
-
-
 
 function AppLayout() {
   const location = useLocation();
@@ -27,6 +27,7 @@ function AppLayout() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Header />
       <Navigation sections={sections} currentPage={getCurrentPage()} />
 
       <main>
@@ -49,10 +50,8 @@ function AppLayout() {
             path="/community-impact"
             element={<CommunityImpactSection />}
           />
-          <Route
-            path="/contact"
-            element={<Contact />}
-          />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<AboutUs />} />
         </Routes>
       </main>
 
